@@ -2,3 +2,4 @@ node_modules
 transcript.json
 *.flac
 *.mp3
+.env

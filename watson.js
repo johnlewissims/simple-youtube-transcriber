@@ -1,7 +1,8 @@
+require('dotenv').config();
 const CURL = require("child_process");
 const fs = require('fs')
-const URL = '{URL}'
-const token = '{apikey}'
+const URL = process.env.WATSON_URL
+const token = process.env.WATSON_API_KEY
 
 exports.watsonSpeechToText = async function(file) {
 

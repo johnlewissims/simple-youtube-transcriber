@@ -24,12 +24,7 @@ cd simple-youtube-transcriber
 npm install
 ```
 
-In watson.js, update URL and token to your Watson apikey and url.
-
-```bash
-const URL = '{url}'
-const token = '{apikey}'
-```
+Rename .example.env to .env and update WATSON_URL and WATSON_API_KEY to your Watson url and apikey.
 
 ## Usage
 
