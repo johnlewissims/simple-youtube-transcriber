@@ -10,5 +10,7 @@ if(flags[0] === 'transcribe'){
 		watson.watsonSpeechToText(path.join(__dirname, 'file.flac'))
 	});
 } else if(flags[0] === 'test') {
-	watson.watsonSpeechToText('/Users/johnsims/Projects/Youtube/test-file.flac')
+	watson.watsonSpeechToText('/Users/johnsims/Projects/simple-youtube-transcriber/test-file.flac')
+} else if(flags[0] === 'current') {
+	watson.watsonSpeechToText('/Users/johnsims/Projects/simple-youtube-transcriber/file.flac')
 }

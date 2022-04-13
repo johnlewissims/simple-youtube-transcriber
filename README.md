@@ -24,7 +24,7 @@ cd simple-youtube-transcriber
 npm install
 ```
 
-Rename .example.env to .env and update WATSON_URL and WATSON_API_KEY to your Watson url and apikey.
+Rename .example.env to .env and update WATSON_URL and WATSON_API_KEY to your Watson url and apikey. If you want to use a different model (for a language other than english), replace the MODEL variable as well. By default this project uses en-US_BroadbandModel.
 
 ## Usage
 
